@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 660px;
+  margin: 20px auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: cadetblue;
+  width: 55px;
+  height: 55px;
+  margin: 5px;
+  background-color: azure;
+}
+
+.giallo {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.grey {
+  background-color: gray;
+}
+
+.green {
+  background-color: green;
+}
